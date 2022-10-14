@@ -2,5 +2,5 @@
 
 ## Final Project for ICM: Imaging (Group 6)
 
-**Disease:** Alzheimer's disease (ADNI dataset)\\
+**Disease:** Alzheimer's disease (ADNI dataset)\n
 **Brain region:** Limbic system (esp hippocampus)
