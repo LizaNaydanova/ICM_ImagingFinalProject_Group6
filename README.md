@@ -18,7 +18,7 @@ All data cleaning, barcode computations (for both the patients in the ADNI datas
 The table containing all of the patient barcodes (for structures in the limbic system) is in ```ADNI_zscores.xlsx``` and the table containing the barcode for the MNI Atlas patient is in ```MNI_zscores.xlsx```.
 
 ### Plotting
-Barcode plots (both the subset of the dataset and the full dataset) are in ```plotting.mlx```. In order to run it, change the definition of the ```folder``` variable to the directory where the ```ADNI_zscores.xlsx``` and ```MNI_zscores.xlsx``` datasets are located.
+Barcode plots (both the subset of the dataset and the full dataset) are in ```heatmap_plots.mlx```. In order to run it, change the definition of the ```folder``` variable to the directory where the ```ADNI_zscores.xlsx``` and ```MNI_zscores.xlsx``` datasets are located.
 
 ## Data
 - ```ADNI_ICM_random200.xlsx```: original dataset
