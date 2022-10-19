@@ -5,6 +5,13 @@
 - Liza Naydanova (enaydan1@jhu.edu)
 - Naeiri Shahmirzaeian Savarani (nshahmi1@jhu.edu)
 
+**Contributions**
+Aseem: Literature review 
+Yikun: Created MATLAB heatmap plots of barcodes for the ADNI and MNI datasets and calculated barcode for MNI Atlas patient.
+Liza: Calculated barcodes for ADNI dataset and performed statistical analysis of data
+Naeiri: Backround information research and put together PowerPoint
+
+
 ## Final Project for ICM: Imaging (Group 6)
 
 **Disease:** Alzheimer's disease (ADNI dataset)
