@@ -13,17 +13,20 @@
 
 ## Code
 ### Barcodes and Statistical Analysis
-All data cleaning, barcode computations, and statistical analysis (Yuen test) comparing volume means of healthy and AD/MCI patients are in ```statistical_computations.ipynb```. In order to run this file, change the definition of the ```working_directory``` variable to the directory where the ```ADNI_ICM_random200.xlsx``` dataset is located. 
+All data cleaning, barcode computations (for both the patients in the ADNI dataset as well as the MNI Atlas patient), and statistical analysis (Yuen test) comparing volume means of healthy and AD/MCI patients are in ```Code/statistical_computations.ipynb```. In order to run this file, change the definition of the ```data_directory``` variable to the directory where the ```ADNI_ICM_random200.xlsx``` and ```MNI_T1L5.xlsx``` datasets are located. The barcodes for the ADNI dataset and the MNI Atlas patient will be saved in 2 files within ```data_directory```. 
 
-The table containing all of the patient barcodes (for structures in the limbic system) is in ```zscores_data.xlsx```.
+The table containing all of the patient barcodes (for structures in the limbic system) is in ```ADNI_zscores.xlsx``` and the table containing the barcode for the MNI Atlas patient is in ```MNI_zscores.xlsx```.
 
 ### Plotting
-Barcode plots (both the subset of the dataset and the full dataset) are in ```plotting.mlx```. In order to run it, change the definition of the ```folder``` variable to the directory where the ```zscores_data.xlsx``` dataset is located.
+Barcode plots (both the subset of the dataset and the full dataset) are in ```plotting.mlx```. In order to run it, change the definition of the ```folder``` variable to the directory where the ```ADNI_zscores.xlsx``` and ```MNI_zscores.xlsx``` datasets are located.
 
 ## Data
 - ```ADNI_ICM_random200.xlsx```: original dataset
 - ```ROI_fullname.xlsx```: excel file with expanded names of all abbreviations used in ```ADNI_ICM_random200.xlsx```
-- ```zscores_data.xlsx```: The table containing all of the patient barcodes (for structures in the limbic system)
+- ```MNI_286Labels_corrected_stats.txt```: original file with all data from the MNI Atlas segmentation
+- ```MNI_T1L5.xlsx```: excel file with only T1L5 data from the MNI Atlas segmentation
+- ```ADNI_zscores.xlsx```: The table containing all of the patient barcodes (for structures in the limbic system)
+- ```MNI_zscores.xlsx```: The table containing the barcode for the patient from the MNI Atlas (for structures in the limbic system)
 
 ## Final Presentation
 Google slide deck for the final presentation: [link](https://docs.google.com/presentation/d/1wEt03VnvqqzIaZoA0U72KR32_NWEQ3K0d5-0IDo6RJs/edit?usp=sharing)
